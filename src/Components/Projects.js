@@ -22,7 +22,7 @@ const Projects = () => {
     {
       image: '/Human.png',
       title: 'Human Machine collaboration on brain tumor diagnosis',
-      content: 'Spearheaded the development of an advanced Brain Tumor Diagnosis Machine, integrating cutting-edge machine learning algorithms to enhance the accuracy of brain tumor diagnoses through medical imaging. This innovative solution combines the latest advancements in artificial intelligence with medical expertise to deliver precise and reliable results.',
+      content: 'Spearheaded the development of an advanced Brain Tumor Diagnosis Machine, integrating cutting-edge machine learning algorithms to enhance the accuracy of brain tumor diagnoses through medical imaging.',
     },
     {
       image: '/stock.jpeg',
@@ -179,6 +179,7 @@ const Projects = () => {
               padding: '20px',
               borderRadius: '10px',
               width: '80%',
+              overflowY:'auto',
               maxWidth: '600px',
               textAlign: 'center',
               position: 'relative', // Allow the close button to be positioned
