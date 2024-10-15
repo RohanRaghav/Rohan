@@ -5,6 +5,7 @@ const Projects = () => {
   const [selectedCard, setSelectedCard] = useState(null); // For managing the selected card
   const cardRowRef = useRef(null);
   const backgroundTextRef = useRef(null);
+  const [isMobile, setIsMobile] = useState(false); // To detect mobile devices
 
   // Cards data
   const cards = [
@@ -55,6 +56,18 @@ const Projects = () => {
     },
   ];
 
+  // Detect screen size for mobile responsiveness
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768); // Mobile screen is <= 768px
+    };
+
+    handleResize(); // Set initial state
+    window.addEventListener('resize', handleResize);
+
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   // Scroll event listener to toggle blur effect
   useEffect(() => {
     const handleScroll = () => {
@@ -99,7 +112,7 @@ const Projects = () => {
   };
 
   const cardStyle = {
-    width: '30%',
+    width: isMobile ? '90%' : '30%', // Full width on mobile, 30% on larger screens
     margin: '10px',
     boxSizing: 'border-box',
     cursor: 'pointer',
@@ -116,7 +129,7 @@ const Projects = () => {
           fontWeight: 'bold',
           textAlign: 'center',
           left: '50%',
-          transform: 'translateX(-50%)',
+          transform: isMobile ? 'none' : 'translateX(-50%)', // Remove transform on mobile
           transition: 'filter 0.3s ease',
           filter: isBlurred ? 'blur(8px)' : 'none', // Apply blur effect dynamically
         }}
@@ -168,13 +181,14 @@ const Projects = () => {
               width: '80%',
               maxWidth: '600px',
               textAlign: 'center',
+              position: 'relative', // Allow the close button to be positioned
             }}
           >
             <button
               onClick={handleCloseModal}
               style={{
                 position: 'absolute',
-                top: '60px',
+                top: '10px',
                 right: '10px',
                 background: 'red',
                 color: 'white',
