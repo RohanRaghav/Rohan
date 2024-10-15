@@ -45,7 +45,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className='skills'>
+    <div className='skills' id='Skills'>
     <div className='intro'>
         Skills
     </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const HeroSection = () => {
   return (
-    <div className='rohan'>
+    <div className='rohan' id='Home'>
       <div className='intro'>
         Hello! I am<br />Rohan Raghav
       </div>

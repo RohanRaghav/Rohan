@@ -106,7 +106,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="cards-containers">
+    <div className="cards-containers" id='Projects'>
       {/* Background text with dynamic blur effect */}
       <div
         ref={backgroundTextRef}

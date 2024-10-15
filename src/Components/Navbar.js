@@ -8,10 +8,10 @@ const Navbar = () => {
             <h1 className='texting'>Portfolio</h1>
         </div>
         <div className='align-right'>
-            <a href='/'  className='a-text'>Home</a>
-            <a href='/' className='a-text'>Skills</a>
-            <a href='/' className='a-text'>Projects</a>
-            <a href='/' className='a-text'>Contact</a>
+            <a href='#Home'  className='a-text'>Home</a>
+            <a href='#Skills' className='a-text'>Skills</a>
+            <a href='#Projects' className='a-text'>Projects</a>
+            <a href='#Contact' className='a-text'>Contact</a>
         </div>
       </nav>
     </div>
