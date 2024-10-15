@@ -34,10 +34,14 @@ const SkillCircle = ({ text, additionalSkills }) => {
 
 const Skills = () => {
   const skillsData = [
-    { text: 'Skill 1', additionalSkills: ['Sub-skill 1', 'Sub-skill 2'] }, // Example with 2 sub-skills
-    { text: 'Skill 2', additionalSkills: ['Sub-skill 3', 'Sub-skill 4', 'Sub-skill 5', 'Sub-skill 6'] }, // Example with 4 sub-skills
-    { text: 'Skill 3', additionalSkills: ['Sub-skill 7', 'Sub-skill 8', 'Sub-skill 9'] }, // Example with 3 sub-skills
-    { text: 'Skill 4', additionalSkills: ['Sub-skill 10', 'Sub-skill 11', 'Sub-skill 12', 'Sub-skill 13', 'Sub-skill 14', 'Sub-skill 15'] } // Example with 6 sub-skills
+    { text: 'FrontEnd Development', additionalSkills: ['HTML', 'CSS','Javascript','TypeScript','React Js', 'Next Js','Three Js','Tailwind CSS','Git','Bootstrap'] }, // Example with 2 sub-skills
+    { text: 'Backend Development', additionalSkills: ['PHP','Python', 'MySQL', 'Node Js', 'Express Js','MongoDB','REST'] }, // Example with 4 sub-skills
+    { text: 'Android Development', additionalSkills: ['Kotlin', 'React Native', 'Java'] }, // Example with 3 sub-skills
+    { text: 'Machine Learning', additionalSkills: ['Python', 'NoSQL', 'TensorFlow', 'Microsoft Azure'] }, // Example with 6 sub-skills
+    { text: 'Content Creation', additionalSkills: ['Figma', 'Canva', 'Blender', 'UI/UX Design', 'PowerPoint'] }, // Example with 6 sub-skills
+    { text: 'Programming & Embedded Systems', additionalSkills: ['C', 'C++', 'IOT', 'Scratch'] }, // Example with 6 sub-skills
+    { text: 'Additional Skills', additionalSkills: ['Tally ERP','Office Automation','Research','Content Writing','Project Managing','Marketing'] }, // Example with 6 sub-skills
+    { text: 'Interpersonal Skills', additionalSkills: ['Team Leadership','Team Management','Time Management','Problem Solving','Critical Thinking','Conflict Management','Creativity'] } // Example with 6 sub-skills
   ];
 
   return (

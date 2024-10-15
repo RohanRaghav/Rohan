@@ -9,34 +9,49 @@ const Projects = () => {
   // Cards data
   const cards = [
     {
-      image: '/c2carnival.jpg',
-      title: 'C^2 Carnival',
-      content: 'The event was a vibrant showcase of student talents, featuring interactive games, guest lectures, and a dynamic flash mob embodying the spirit of community, creativity, and collaboration within CAC.',
+      image: '/Cac.png',
+      title: 'Connecting All Circles (CAC) Club Website',
+      content: 'The CAC Club Website is a full-stack web application designed to serve as the digital presence of the Connecting All Circles (CAC) Club. This project aims to showcase the club’s events, projects, and collaborations, providing an interactive and user-friendly platform for students and tech enthusiasts to connect and contribute.',
     },
     {
-      image: '/Boot.jpg',
-      title: 'FrontEnd Bootcamp',
-      content: 'The three-day Frontend Web Development Bootcamp equipped participants with essential skills in HTML, CSS, and JavaScript. It fostered hands-on learning, empowering attendees to build dynamic, responsive websites.',
+      image: '/Tekathon.png',
+      title: 'Tekathon 3.0 website',
+      content: "The Teckathon 3.0 website was developed as the official platform for the third edition of the Teckathon event, a premier tech competition designed to foster innovation and collaboration among students and developers. This project aimed to provide participants with a seamless experience from registration to event updates and project submissions.",
     },
     {
-      image: '/Greet.png',
-      title: 'Greet & Meet',
-      content: "The Greet and Meet event was filled with excitement, featuring member introductions, fun activities, a goodies giveaway, and a lively DJ. The success was driven by the management team's creativity, leadership, and teamwork throughout.",
+      image: '/Human.png',
+      title: 'Human Machine collaboration on brain tumor diagnosis',
+      content: 'Spearheaded the development of an advanced Brain Tumor Diagnosis Machine, integrating cutting-edge machine learning algorithms to enhance the accuracy of brain tumor diagnoses through medical imaging. This innovative solution combines the latest advancements in artificial intelligence with medical expertise to deliver precise and reliable results.',
     },
     {
-      image: '/Tekathon2.0.jpeg',
-      title: 'Tekathon 2.0',
-      content: 'Tekathon 2.0 encouraged students to solve real-world challenges using advanced technologies. It promoted creativity, teamwork, and skills, helping participants represent our institution at **SIH 2023** with innovative, impactful solutions.',
+      image: '/stock.jpeg',
+      title: 'StockPred',
+      content: 'Initiated a pioneering project focused on stock market predictions and pattern recognition using the powerful Gated Recurrent Unit (GRU) machine learning algorithm. This cutting-edge solution aims to provide accurate forecasts and insights into market trends, enabling informed investment decisions.',
     },
     {
-      image: 'https://newsstation.media/wp-content/uploads/2024/02/image00282N2-780x398.jpg',
-      title: 'Dark Pattern Buster Hackathon',
-      content: 'Round 2 of the ‘Dark Patterns Buster Hackathon 2024’ at Chandigarh University showcased innovative solutions from the top 5 teams highlighting the spirit of collaboration and problem-solving.',
+      image: '/AppSs.png',
+      title: 'Portfolio App',
+      content: 'Built a fully functional portfolio app using React Native! 📱✨ This app showcases my work, skills, and projects in an intuitive and user-friendly interface, providing a seamless experience across both iOS and Android platforms.',
     },
     {
-      image: '/teknoxian.png',
-      title: 'Teknoxian Internal Competition',
-      content: 'We conducted an internal competition of Technoxian World Cup 2024, World biggest robotics competitions where participants from 75+ countries are competing in 45+ sports.',
+      image: '/Port.png',
+      title: 'Portfolio Website',
+      content: 'Built a fully functional portfolio website designed to effectively showcase my work, skills, and projects in a visually appealing and intuitive manner. This website serves as a digital representation of my professional identity, making it easy for potential employers, clients, and collaborators to explore my expertise and past work.',
+    },
+    {
+      image: '/yogax.jpeg',
+      title: 'YogaInstructor',
+      content: 'Developed an innovative website designed to guide yoga enthusiasts in achieving proper postures using advanced motion detection and machine learning technologies. This interactive platform enhances the yoga experience by providing real-time feedback and personalized guidance.',
+    },
+    {
+      image: '/Boot.png',
+      title: 'Bootcamp Website',
+      content: 'Developed two comprehensive websites for bootcamps organized by our club, featuring separate portals for administrators and students. I successfully designed and implemented both the frontend and backend of the applications, ensuring a seamless user experience. The admin panel allows for effective management of quizzes and assessments, while the student portal provides users with easy access to participate in quizzes and submit their assessments. ',
+    },
+    {
+      image: '/IOT.jpg',
+      title: 'Rain Alarm',
+      content: 'The Rain Alarm project is an IoT solution designed to monitor and detect rainfall in real time. This project utilizes various sensors, microcontrollers, and cloud technologies to provide timely alerts and ensure that users are informed about weather changes in their vicinity. ',
     },
   ];
 
@@ -159,7 +174,7 @@ const Projects = () => {
               onClick={handleCloseModal}
               style={{
                 position: 'absolute',
-                top: '10px',
+                top: '60px',
                 right: '10px',
                 background: 'red',
                 color: 'white',
