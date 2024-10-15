@@ -14,8 +14,7 @@ const pages = [
   { content: <div style={{border:'2px solid black',width:'85%',height:'90%'}}><TeamPart /></div> },
   { content: <div style={{border:'2px solid black',width:'85%',height:'90%'}}><DiaryEvent /></div> },
   { content: <div style={{border:'2px solid black',width:'85%',height:'90%'}}><Greet /></div> },
-  { content: <div style={{border:'2px solid black',width:'85%',height:'90%'}}>Page 4: Chapter 3</div> },
-  { content: <div style={{border:'2px solid black',width:'85%',height:'90%'}}>Page 5: The End</div> }, // Last page
+  { content: <div style={{border:'2px solid black',width:'85%',height:'90%'}}>Continue.....</div> }, // Last page
 ];
 const Diary = () => {
   return (

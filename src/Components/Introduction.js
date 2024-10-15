@@ -2,13 +2,12 @@ import React from 'react'
 
 const Introduction = () => {
   return (
-    <div className='intro'>
-        <img className='intro1' src='/Greet.png' alt='into1' />
-      Introduction
-      <p style={{fontSize:'0.6rem',textAlign:'justify',padding:'5px'}}>Connecting All Circles is a vibrant community dedicated to igniting creativity and encouraging exploration among students. Our mission is to provide opportunities for students to discover and pursue their passions across various domains.At CAC Club, we believe in the power of community, creativity, and collaboration. We aim to bring together individuals from diverse backgrounds to share knowledge, skills, and experiences that foster growth and innovation.
-<br />
-We envision a world where everyone has the opportunity to reach their full potential. By empowering our members with the tools and support they need, we strive to create a lasting impact on individuals and communities., We focus on raising awareness about and preparing students for government hackathons and competitions, promoting interdisciplinary projects, and bridging the gap between senior and junior students through mentorship.</p>
-    </div>
+    <div className='school'>
+        <img className='intro1' src='/School.jpg' alt='into1' />
+        <div>
+        I completed my 10th grade at Taksh-Shila Model Sr. Sec. School, where I laid the groundwork for my academic success, achieving a commendable score of 90.4%. Building on that foundation, I continued to excel in my studies during 12th grade, earning a remarkable 83.6%.
+In parallel with my 12th, I pursued a diploma in Office Automation and Web Development. This dual effort not only deepened my understanding of core subjects but also honed my technical skills in programming with C and Tally ERP, along with the essentials of web development. Balancing both academic and practical training was challenging but incredibly rewarding, as it prepared me well for my future endeavors and provided me with a solid skill set before even stepping into college.
+      </div></div>
   )
 }
 

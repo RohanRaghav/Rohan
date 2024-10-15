@@ -38,7 +38,7 @@ const HeroSection = () => {
       <div className='intro'>
         Hello! I am<br />Rohan Raghav<br />
         I am a<br />
-        <span className="typing">`{currentPost}</span> {/* Cursor for typing effect */}
+        <span className="typing">{currentPost}</span> {/* Cursor for typing effect */}
       </div>
       <div className='myimage'>
         <img
