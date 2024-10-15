@@ -207,7 +207,7 @@ const Projects = () => {
               alt={selectedCard.title}
               style={{ width: '100%', borderRadius: '10px' }}
             />
-            <h2>{selectedCard.title}</h2>
+            <h2 style={{fontSize:'1rem'}}>{selectedCard.title}</h2>
             <p>{selectedCard.content}</p>
           </div>
         </div>
